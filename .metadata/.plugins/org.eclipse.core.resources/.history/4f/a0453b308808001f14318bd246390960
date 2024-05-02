@@ -1,0 +1,12 @@
+package springIntro;
+
+public class CustomerManager {
+	
+	
+	
+	public void add()
+	{
+		//iş kuralları
+		
+	}
+}

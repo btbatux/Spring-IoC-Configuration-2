@@ -1,0 +1,15 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		/*
+		 * IoC Bir bileşenin kendi kontrolü üzerindeki yetkisini bir dış kaynağa devretmesini ifade eder
+		 * Dependecy Injectiion bağımlılık enjeksiyonu 
+		 * spesifik olarak bileşenler arası bağımlılıkların dışarıdan sağlanmasını ifade eder.
+		 */
+		
+		
+	 
+	}
+
+}

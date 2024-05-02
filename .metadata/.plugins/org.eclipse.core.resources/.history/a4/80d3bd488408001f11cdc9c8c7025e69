@@ -1,0 +1,22 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		 
+		/*
+		 * IoC (Inversion of Control), Spring Framework'te 
+		 * genellikle XML tabanlı yapılandırma dosyaları aracılığıyla yapılabileceği gibi, 
+		 * Java tabanlı yapılandırma sınıfları (JavaConfig) veya bir kombinasyonu kullanılarak da yapılabilir.
+		 * 
+		 *  IoC, bir bileşenin hayat döngüsünün ve bağımlılıklarının dışarıdan kontrol edilmesidir.
+		 * */
+		
+		
+		//Dependency Injection dış kaynağın bileşenler arası bağımlılıkları yönetmesine odaklanır.
+		
+		
+		
+		
+	}
+
+}
