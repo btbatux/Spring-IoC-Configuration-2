@@ -2,7 +2,7 @@ package springIntro;
 
 public class OracleSqlCustomerDal implements ICustomerDal {
 
-	String connectionString;  //String enjeksiyon xml üzerinden classlardaki ortak string değişkenini tek bir yerden yönettik
+	String connectionString;
 	
 	
 	public String getConnectionString() {
