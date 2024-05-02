@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="springIntro.OracleSqlCustomerDal"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="springIntro.CustomerManager"/>
+    <fullyQualifiedTypeName name="springIntro.MySqlCustomerDal"/>
+    <fullyQualifiedTypeName name="springIntro.ICustomerDal"/>
+    <fullyQualifiedTypeName name="springIntro.ICustomerService"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+</qualifiedTypeNameHistroy>
