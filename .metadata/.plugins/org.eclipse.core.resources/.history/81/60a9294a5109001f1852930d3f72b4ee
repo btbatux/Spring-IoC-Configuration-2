@@ -9,8 +9,8 @@
 
 	<bean id="propertyConfigurer"
 		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
-		<property name="location">
-			<value>classpath:values.properties</value> <!-- values.properties dosyasını bağladık -->
+		<property name="locationn">
+			<value>classpath:values.properties</value>
 		</property>
 	</bean>
 

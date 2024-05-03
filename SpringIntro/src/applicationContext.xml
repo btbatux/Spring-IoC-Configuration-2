@@ -10,14 +10,14 @@
 	<bean id="propertyConfigurer"
 		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
 		<property name="location">
-			<value>classpath:values.properties</value>
+			<value>classpath:values.properties</value> <!-- values.properties dosyasını bağladık -->
 		</property>
 	</bean>
 
 
-	<bean id="database" class="springIntro.PostgreSqlCustomerDal">
+	<bean id="database" class="springIntro.OracleSqlCustomerDal"> <!-- database olarak oracle'ı al -->
 		<property name="connectionString" value="${database.connectionString}"></property>
-	</bean> <!-- database olarak oracle'ı al -->
+	</bean> 
 
 	<bean id="service" class="springIntro.CustomerManager">
 		<constructor-arg ref="database" />
