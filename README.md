@@ -30,6 +30,7 @@ git clone https://github.com/btbatux/SpringIntro.git
 
 ## Kullanım
 Proje klonlandıktan sonra, gerekli bağımlılıkları yükleyin ve uygulamayı başlatın.
+
 cd SpringIntro
 mvn spring-boot:run
 
