@@ -27,7 +27,9 @@ connectionString özelliği, values.properties dosyasından alınan database.con
 ## Kurulum
 Bu projeyi klonlamak için aşağıdaki komutu kullanabilirsiniz:
 git clone https://github.com/btbatux/SpringIntro.git
+
 libs klasöründeki jar'ları build edip projeye dahil etmek için;
+
 springIntro üzerinde sağ tıkla --> Properties --> Java build path --> Classpath --> Add JARs --> libs klasörünü seç ve bütün JAR'ları seçili hale getir --> Apply and close 
 
 ## Kullanım
