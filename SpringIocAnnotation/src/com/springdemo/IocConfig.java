@@ -14,4 +14,9 @@ public class IocConfig {
 		return new OracleSqlCustomerDal();
 	}
 
+	
+	@Bean // Bu bir bean anatasyonudur. //Main'de service ifadesini burada bulacak ve ICustomerService metodunda yer alan veritabanını return edecek.
+	public ICustomerService service() {
+		return new CustomerManager(database()); //ICustomerDal yer alan DB
+	}
 }
