@@ -14,6 +14,7 @@ public class Main {
 		 * edilir.
 		 */
 
+		// IocConfig sınıfını temel alarak bir AnnotationConfigApplicationContext oluşturuyoruz
 		AnnotationConfigApplicationContext context = 
 				new AnnotationConfigApplicationContext(IocConfig.class);
 		 	
